@@ -40,11 +40,18 @@ export default {
 }
 #nav {
   padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: navy;
+}
+
+#nav a:hover {
+  color: white;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: lightblue;
 }
 
 #nav a.router-link-exact-active {
